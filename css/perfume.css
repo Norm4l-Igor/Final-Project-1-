@@ -216,71 +216,43 @@ nav ul li a:hover::after {
 
 
 
-
-
-
-
-
-
-
-
-
 /* Main Carousel Container */
 #carousel-container {
     width: 100%;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    scroll-behavior: smooth; /* Smooth scrolling */
-    white-space: nowrap; /* Prevent items from wrapping to the next line */
-    margin: 40px auto; /* Margem para o carrossel */
-    padding: 10px 0; /* Espaçamento em cima e embaixo */
-    border-radius: 15px; /* Arredondamento das bordas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra do carrossel */
+    overflow-x: auto; 
+    scroll-behavior: smooth; 
+    white-space: nowrap; 
+    margin: 40px auto; 
+    padding: 10px 0; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Carousel Wrapper */
+
 #carousel {
-    display: block; /* Exibe o contêiner de forma padrão */
+    display: block; 
 }
 
-/* Carousel Item */
+
 .carousel-item {
-    display: inline-block; /* Usa inline-block para itens */
-    width: 300px; /* Largura fixa dos itens */
-    margin-right: 10px; /* Espaçamento entre os itens */
+    display: inline-block; 
+    width: 300px; 
+    margin-right: 10px; 
 }
 
 .carousel-item img {
-    width: 100%; /* A imagem ocupa 100% da largura do item */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 10px; /* Arredondamento das bordas da imagem */
-    display: block; /* Garante que a imagem seja em bloco */
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    display: block; 
 }
 
-/* Estilo para o título da coleção */
+
 .collection-title {
-    text-align: center; /* Centraliza o título */
-    font-size: 24px; /* Tamanho do texto do título */
-    margin: 20px 0; /* Espaçamento em cima e embaixo do título */
+    text-align: center; 
+    font-size: 24px; 
+    margin: 20px 0; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
