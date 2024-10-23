@@ -204,18 +204,18 @@ main h1 {
 
 
 .carousel {
-    display: block; 
+    display: inline; 
 }
 
 
 .carousel-item {
-    display: inline; /* Use inline for items */
-    width: auto; 
+    display: inline-block; /* Use inline for items */
+    width: 300px; 
     margin-right: 10px;
 }
 
 .carousel-item img {
-    width: 300px; 
+    width: 100%; 
     height: auto;
     border-radius: 10px; 
     display: block; 
@@ -271,4 +271,24 @@ footer {
 
 .footer-copyright {
     font-size: 12px;
+}
+
+#backToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+#backToTopBtn:hover {
+    background-color: #555;
+    cursor: pointer;
 }

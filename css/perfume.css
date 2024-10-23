@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+
+.brand-icons {
+    display: inline-flex;
+    gap: 10px;
+}
+
+header {
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    font-size: 14px;
+
+}
+
+.top-header .brand-icons img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.top-header .right-links {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-header .right-links a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+    position: relative;
+}
+
+.help-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow:
+        border-radius: 5px;
+    width: 200px;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+.help-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.help-menu li {
+    padding: 10px 20px;
+}
+
+.help-menu li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.help-menu li a:hover {
+    background-color: #f4f4f4;
+}
+
+.top-header .right-links a:hover+.help-menu,
+.help-menu:hover {
+    display: block;
+}
+
+.middle-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    gap: 50px;
+}
+
+.middle-header .logo img {
+    width: 100px;
+    height: auto;
+}
+
+.middle-header .logo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.middle-header nav {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.middle-header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.middle-header .search-cart {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.middle-header .search-cart input {
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.bottom-header {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+
+.bottom-header a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.bottom-header a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+#perfume-section {
+    padding: 30px;
+    margin: 40px auto;
+    border: 2px solid black;
+    max-width: 1510px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.perfume-container {
+    overflow: hidden;
+}
+
+.perfume-image {
+    width: 150px;
+    height: auto;
+    margin: 0 30px 20px 0;
+    float: left; /*The float */
+   
+
+}
+
+.perfume-text {
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.perfume-text h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+
+}
+
+.perfume-text p {
+    margin: 20px 0;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Carousel Container */
+#carousel-container {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    white-space: nowrap; /* Prevent items from wrapping to the next line */
+    margin: 40px auto; /* Margem para o carrossel */
+    padding: 10px 0; /* Espaçamento em cima e embaixo */
+    border-radius: 15px; /* Arredondamento das bordas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra do carrossel */
+}
+
+/* Carousel Wrapper */
+#carousel {
+    display: block; /* Exibe o contêiner de forma padrão */
+}
+
+/* Carousel Item */
+.carousel-item {
+    display: inline-block; /* Usa inline-block para itens */
+    width: 300px; /* Largura fixa dos itens */
+    margin-right: 10px; /* Espaçamento entre os itens */
+}
+
+.carousel-item img {
+    width: 100%; /* A imagem ocupa 100% da largura do item */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Arredondamento das bordas da imagem */
+    display: block; /* Garante que a imagem seja em bloco */
+}
+
+/* Estilo para o título da coleção */
+.collection-title {
+    text-align: center; /* Centraliza o título */
+    font-size: 24px; /* Tamanho do texto do título */
+    margin: 20px 0; /* Espaçamento em cima e embaixo do título */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* foorter */
+footer {
+    background-color: #fff;
+    color: #000;
+    padding: 40px 0;
+    text-align: center;
+    border: 2px solid #000;
+    margin: 20px auto;
+    margin-right: 60px auto;
+    width: 99%;
+    border-radius: 10px;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-social-icons a img {
+    width: 25px;
+    height: 25px;
+    margin: 0 15px;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: auto;
+}
+
+.footer-links {
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    font-size: 12px;
+}
+
+#backToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+#backToTopBtn:hover {
+    background-color: #555;
+    cursor: pointer;
+}
