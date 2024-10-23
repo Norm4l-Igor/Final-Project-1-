@@ -181,7 +181,7 @@ main h1 {
 }
 
 
-/* Main Title Styling */
+
 main h1 {
     text-align: center;
     font-size: 2rem;
@@ -202,23 +202,23 @@ main h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Carousel Wrapper */
+
 .carousel {
-    display: block; /* Keep carousel as a block element */
+    display: block; 
 }
 
-/* Individual Carousel Items */
+
 .carousel-item {
     display: inline; /* Use inline for items */
-    width: auto; /* Allow width to be determined by content */
-    margin-right: 10px; /* Space between items */
+    width: auto; 
+    margin-right: 10px;
 }
 
 .carousel-item img {
-    width: 300px; /* Fixed width for images */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
-    display: block; /* Ensure image is block-level */
+    width: 300px; 
+    height: auto;
+    border-radius: 10px; 
+    display: block; 
 }
 
 
