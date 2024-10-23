@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -182,6 +183,7 @@ nav ul li a:hover::after {
     background-color: #f9f9f9;
     border-radius: 10px;
 }
+
 
 .perfume-container {
     overflow: hidden;

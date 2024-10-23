@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -193,9 +194,12 @@ main h1 {
 /* Main Carousel Container */
 .carousel-container {
     width: 100%;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    scroll-behavior: smooth; /* Smooth scrolling */
-    white-space: nowrap; /* Prevent items from wrapping to the next line */
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    scroll-behavior: smooth;
+    /* Smooth scrolling */
+    white-space: nowrap;
+    /* Prevent items from wrapping to the next line */
     margin: 40px auto;
     padding: 10px 0;
     border-radius: 15px;
@@ -204,21 +208,21 @@ main h1 {
 
 
 .carousel {
-    display: inline; 
+    display: inline;
 }
 
 
 .carousel-item {
-    display: inline-block; /* Use inline for items */
-    width: 300px; 
+    display: inline-block;/*Use inline for items */
+    width: 300px;
     margin-right: 10px;
 }
 
 .carousel-item img {
-    width: 100%; 
+    width: 100%;
     height: auto;
-    border-radius: 10px; 
-    display: block; 
+    border-radius: 10px;
+    display: block;
 }
 
 

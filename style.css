@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -39,6 +40,14 @@ nav ul li a::after {
 nav ul li a:hover::after {
     width: 100%;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 
 .top-header {
     display: flex;
@@ -210,7 +219,7 @@ nav ul li a:hover::after {
 .image-container {
     display: flex;
     gap: 10px;
-    }
+}
 
 .image-wrapper {
     position: relative;
@@ -221,7 +230,7 @@ nav ul li a:hover::after {
 .image-wrapper img {
     width: 100%;
     height: 100%;
-    
+
     border-radius: 5px;
     filter: brightness(50%);
 }
